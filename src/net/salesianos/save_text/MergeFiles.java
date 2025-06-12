@@ -40,7 +40,7 @@ public class MergeFiles {
             FileWriter writer = new FileWriter("files/file1and2");
             writer.write("- Contenido del Fichero Uno: <" + fulltext1 + ">");
             writer.write("- Contenido del Fichero Dos: <" + fulltext2 + ">");
-            writer.write("== FICHERO CREADO POR OLI ==");
+            writer.write("\n== FICHERO CREADO POR OLI ==");
             writer.flush();
             writer.close();
 
