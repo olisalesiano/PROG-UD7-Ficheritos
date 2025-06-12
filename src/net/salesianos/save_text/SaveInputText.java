@@ -34,7 +34,7 @@ public class SaveInputText {
             writer.close();
             System.out.println("Texto guardado correctamente en 'files/userInput'");
 
-        } catch (IOException e) {
+        } catch (IOException exception) {
             System.out.println("Error guardando el texto.");
         }
     }
